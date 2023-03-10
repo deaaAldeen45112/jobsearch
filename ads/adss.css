@@ -1,0 +1,156 @@
+﻿
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+button.butcom {
+    align-self: center;
+    height: 45;
+    color: white;
+    border: solid 2px #2196f3;
+    background-color: #2196f3;
+}
+.divcom {
+    margin-top: 10px;
+    display: flex;
+    /* display: none; */
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  padding-left: 0;
+  grid-template-rows: 50px auto 30%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "logo nav nav nav nav nav nav nav nav nav nav nav"
+    "con con con con con con con con con con con con"
+    "fot fot fot fot fot fot fot fot fot fot fot fot";
+}
+ul {
+    list-style: none;
+}
+nav{grid-area: nav;display: flex;background-color: #000;flex-direction: row;}
+#logo{
+
+grid-area:logo;
+
+display: flex;
+
+background-color: #000;
+
+color: white;
+
+text-align: center;
+height: inherit;
+justify-content: center;
+
+flex-direction: column;
+
+padding-left: 12px;
+}
+
+section{grid-area:con;background-color: white;}
+footer{grid-area: fot;display: flex;text-align: center;background-color: #000000d4;color: white;/* font-family: system-ui; *//* font-weight: bolder; */font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-weight: 400;line-height: 1.4;font-size: 1.4rem;}
+section.list_card {
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    background: transparent;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    margin: 24px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 43%);
+    width: 500px;
+    border-radius: 5px;
+}
+
+but {
+}
+
+.circle {
+    background-color: rgb(251 251 251);
+    width: 50px;
+    margin: 1px;
+    border-block-width: 0px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    position: relative;
+    font-size: xx-large;
+    font-family: -webkit-pictograph;
+    display: flex;
+    text-align: center;
+    margin-left: -10px;
+    left: calc(100% - 4%);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {/* border-radius: 5px; */width: 100%;height: 9em;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+p {}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+
+
+button#like {}
+
+but {
+    width: 100px;
+    height: 50px;
+    background: blue;
+}
+
+button#like {
+    width: auto;
+    flex: auto;
+    background-color: #03a9f400;
+    text-align: center;
+    padding: 4px;
+    color: black;
+    border: 0px solid black;
+    height: 52px;
+}
+
+.gro_but {display: flex;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;flex-direction: row;justify-content: center;border: 1px solid #0000005e;}
+
+button#comment {
+    width: auto;
+    flex: auto;
+    background-color: #03a9f4;
+    padding: 0;
+    color: white;
+    border: 0px solid black;
+    height: 52px;
+}
+
+.ca_te {
+    font-family: system-ui;
+    font-size: larger;
+    padding: 16px;
+    height: 256px;
+    width: 100%;
+}
+
+
+

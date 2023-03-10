@@ -1,0 +1,593 @@
+﻿/*.par{
+
+background-color:brown;
+width: 1000px;
+height: 400px;
+
+
+}
+.one{  
+    font-size: 45px;
+ background-color: yellowgreen;
+
+  
+}
+.two{
+    font-size: 45px;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+
+*/
+
+/*.dd{
+color: white;
+background-color: black;
+position: sticky;
+top: 0;
+width: 100%;
+}*/
+
+/*body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+width: 100%;
+border: 1px solid #ccc;
+border-spacing: 10px;
+
+
+}
+table td {
+padding: 15px;
+border:0.5px solid black;
+background-color: inherit;
+}
+
+table thead td {
+background-color: red;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+
+
+/*.parent div{
+color: red;
+font-size: 45px;
+/*background-image: url(../20191129_210105.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position: 50% 50%;*
+width: 80%;
+background-color: rgb(97, 36, 36);
+margin-left:auto;
+margin-right:auto;
+border: 10px;
+border-top-color: yellowgreen;
+border-style:  solid ;
+padding:10px;
+border:10px;
+overflow: auto;
+text-shadow: ;
+text-align: ;
+direction: ;
+vertical-align: ;
+text-decoration:none ;
+text-transform: ;
+letter-spacing: ;
+text-indent: ;
+line-height:1.6 or 160%;
+word-spacing: ;
+white-space: nowrap; 
+overflow:hidden;
+word-break: break-word;
+text-overflow: ;
+font-family: ;
+font-size: ;
+font-style: Ù…Ø§ÙŠÙ„;
+font-weight: bold or normal;
+cursor: pointer;
+curosr:move;
+
+*//*
+background-color: black;
+}*/
+/*
+block
+full width 
+*/
+/*.parent{
+padding: 10px;
+background-color:  red;
+}
+/*.parent div{
+
+text-align: center;
+float: left;
+width: calc(100%-90px /5);
+background-color: black;
+margin-left: 15px;
+}
+.clear{
+
+    clear:both;
+}
+*/
+/*
+width :100
+spaces 15 *6=90px  
+100%-90px
+96% spcace 
+four element the width is :100%-90px /5
+
+18.8
+*/
+/*
+.one{
+background-color: red;
+color: white;
+}
+.two{
+background-color: white;
+width: 100px;
+height: 100px;
+
+}
+a{
+text-decoration: none;
+    color:green;
+}
+a:hover{
+color: red;
+
+}
+.ch:checked{
+display: none;
+
+}
+a:visited{
+
+    color: blue;
+}
+
+.in {
+
+border: 2px solid black;
+
+}
+.in:focus{
+
+    border:2px solid yellow;
+    outline: none;
+}
+
+*/
+/*
+.one span {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .two::first-letter {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .three::first-line {
+    font-weight: bold;
+    color: green;
+  }
+  ::selection {
+    background-color: black;
+    color: yellow;
+  }
+*/
+/*
+.parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+  }
+  .one::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    right: -10px;
+    top: 0;
+    background-color: #009688;
+  }
+  .one::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    background-color: white;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #009688 transparent transparent;
+  }
+  .user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+  } 
+*/
+
+/*.one {
+    background-color: #EEE !important;
+  }
+*/
+
+/*
+  The Margin Collapse
+  [1] Only Vertical Margin Collapse
+  [2] Bigger Margin Wins
+  [3] Margin Collapsing With Elements Without Anything Between
+  [4] Nesting Does Not Prevent Collapse
+*/
+
+
+
+/*
+ul li::before{
+    list-style: none;
+
+
+
+}
+
+.parent{
+counter-increment: coun;
+}
+.one::after{
+
+content: attr();
+
+}
+.one:hover::before{
+
+display: block;
+background-color: red;
+}
+*/
+/*
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+  }
+  .one {
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+  }
+*/
+/*
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .one {
+    background-color: #EEE;
+    width: 200px;
+    height: 100px;
+    transition-duration: 0.5s;
+    transition-delay: 2s;
+    transition-timing-function:ease-out;
+
+  }
+  .one:hover {
+  font-size: 200px;
+  }
+*/
+
+
+
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+*/
+
+
+  /*.fflex {
+    background-color: rgb(37, 102, 56);
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   justify-content: center;
+  }
+  .fflex div {
+    border-width: 1px ;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+*/
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  padding-left: 0;
+  grid-template-rows: 50px 70% 30%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "logo nav nav nav nav nav nav nav nav nav nav nav"
+    "con con con con con con con con con con con con"
+    "fot fot fot fot fot fot fot fot fot fot fot fot";
+}
+ul {
+    list-style: none;
+}
+
+nav{grid-area: nav;display: flex;background-color: #000;flex-direction: row;}
+#logo{
+
+grid-area:logo;
+
+display: flex;
+
+background-color: #000;
+
+color: white;
+
+text-align: center;
+
+height: inherit;
+
+justify-content: center;
+
+flex-direction: column;
+
+padding-left: 12px;
+}
+
+section{grid-area:con;min-height: 14em;background-color: white;}
+footer{grid-area: fot;display: flex;text-align: center;background-color: #000000d4;color: white;/* font-family: system-ui; *//* font-weight: bolder; */font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-weight: 400;line-height: 1.4;font-size: 1.4rem;}
+section.list_card {
+    display: flex;
+    margin: 4%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card {
+    background: white;
+    margin: 12px;
+    background-position: center;
+    background-size: cover;
+    height: 12rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 164px;
+    border-radius: 5px;
+}
+
+button {}
+
+.circle {
+    background-color: rgb(251 251 251);
+    width: 50px;
+    margin: 1px;
+    border-block-width: 0px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    position: relative;
+    font-size: xx-large;
+    font-family: -webkit-pictograph;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {/* border-radius: 5px; */width: 100%;height: 9em;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+p {}
+
+.container {
+    text-align: center;
+    display: flex;
+    height: calc(100% - 9em);
+    flex-direction: column;
+    justify-content: center;
+}
+dash {}
+
+button#dash {
+    position: relative;
+    width: 100px;
+    color: white;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    font-size: inherit;
+    font-family: -webkit-pictograph;
+    border: 0 white;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}.munu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}

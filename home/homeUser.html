@@ -1,0 +1,181 @@
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head><body onload="getCards()">
+        <div class="parent">
+
+<h2 id="logo">Jobsearch</h2>
+            <nav>
+    <div class="munu">
+    
+    <button value="dashbord" onclick="getlogin()" id="dash">logout
+    </button>
+    <div class="circle"></div>
+    
+
+        
+        
+    </div>
+        </nav>
+
+                
+                
+        
+
+
+            <section class="list_card">
+
+
+              
+          </section>    <footer>
+              
+<div class="col-sm-6 col-md-3 item">
+                        <h3>About us </h3>
+                        <ul>
+                            
+                            <li>phone 07921984846</li>
+                            <li>email qwerty@gmail.com</li>
+                        </ul>
+                    </div>
+              
+            </footer>
+
+
+        </div>
+        
+      
+
+
+
+
+
+
+
+<script>
+
+
+function getAdsByCollageName(id){
+  console.log(id);
+ localStorage.setItem("collageId",id);
+ window.location="../ads/ads.html";
+
+
+
+}
+
+
+
+function getname(){
+
+
+var circle=document.getElementsByClassName("circle")[0];
+circle.innerHTML=sessionStorage.getItem("personName")[0];
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function getlogin(){
+
+var xhttp = new XMLHttpRequest();
+
+
+
+    xhttp.open('GET', '../home/home.php');
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("");
+  
+
+
+  
+xhttp.onreadystatechange = function()
+  {
+    if(xhttp.readyState == 4 && xhttp.status == 200)
+    {
+      sessionStorage.removeItem('personName');
+      localStorage.clear();//
+      window.location="../login/login.html"
+
+ var respons = xhttp.responseText;
+      var result = JSON.parse(respons);
+// now you can access it's params:
+     console.log(result);
+    }
+
+  }
+
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+function getPageInsertAds()
+{
+
+  window.location="../crud_ads/insert_ads.html";
+
+
+}
+
+function getCards(){
+getname();
+var select=document.getElementsByClassName("list_card");
+var xhttp = new XMLHttpRequest();
+
+
+
+    xhttp.open('POST', '../crud_ads/insert_ads.php');
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("&opreation="+"ListDropDown");
+  
+
+
+  
+xhttp.onreadystatechange = function()
+  {
+    if(xhttp.readyState == 4 && xhttp.status == 200)
+    {
+      var respons = xhttp.responseText;
+      var result = JSON.parse(respons);
+// now you can access it's params:
+     console.log(result.length);
+for (var i = 0; i < result.length; i+=3) {
+  console.log(result[i+2]);
+select[0].innerHTML+= "<div id=\""+result[i]+"\"class=\"card\" onclick=\"getAdsByCollageName(this.id)\" ><img src="+result[i+2]+"alt=\"Avatar\" class=\"img_card\" ><div class=\"container\"><p>"+result[i+1]+"</p></div></div>"
+
+}
+
+}}}
+
+
+</script><div class="betternet-wrapper"></div></body></html>

@@ -1,0 +1,262 @@
+﻿
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  padding-left: 0;
+  grid-template-rows: 50px 70% 30%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "logo nav nav nav nav nav nav nav nav nav nav nav"
+    "con con con con con con con con con con con con"
+    "fot fot fot fot fot fot fot fot fot fot fot fot";
+}
+ul {
+    list-style: none;
+}
+nav{grid-area: nav;display: flex;background-color: #000;flex-direction: row;}
+#logo{
+
+grid-area:logo;
+
+display: flex;
+
+background-color: #000;
+    height: inherit;
+color: white;
+
+height: inherit;
+
+text-align: center;
+
+justify-content: center;
+
+flex-direction: column;
+
+padding-left: 12px;
+}
+
+section{grid-area:con;min-height: 14em;background-color: white;}
+footer{grid-area: fot;display: flex;text-align: center;background-color: #000000d4;color: white;/* font-family: system-ui; *//* font-weight: bolder; */font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-weight: 400;line-height: 1.4;font-size: 1.4rem;}
+section.list_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    margin: 12px;
+    flex: auto;
+    background-position: center;
+    background-size: cover;
+    height: 12rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100px;
+    border-radius: 5px;
+}
+
+button {}
+
+.circle {
+    background-color: rgb(251 251 251);
+    width: 50px;
+    margin: 1px;
+    border-block-width: 0px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    position: relative;
+    font-size: xx-large;
+    font-family: -webkit-pictograph;
+    display: flex;
+    text-align: center;
+    margin-left: -10px;
+    left: calc(100% - 4%);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {/* border-radius: 5px; */width: 100%;height: 9em;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+p {}
+
+.container {
+    text-align: center;
+    display: flex;
+    height: calc(100% - 9em);
+    flex-direction: column;
+    justify-content: center;
+}
+select.sel {
+    font-size: 14px;
+    width: 500px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+.custom-select {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+option.op {
+    appearance: none;
+}
+
+optgroup.opgroup {
+}
+
+table.tab {
+    margin-top: -132px;
+    max-height: 220px;
+    overflow-y: scroll;
+    border: 1px solid #000000c9;
+    min-width: 600px;
+    max-width: 600px;
+    display: flex;
+    font-family: system-ui;
+    word-break: break-all;
+}
+
+tr {
+    text-align: center;
+    height: 40px;
+}
+
+tr.head {
+    background-color: #000000d4;
+    font-family: system-ui;
+    color: white;
+}
+
+tr.head {}
+
+td {
+    width: 300px;
+}
+
+button.butedit {
+    background-color: #03a9f4;
+    border: 1px solid #03a9f4;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button.butdel {
+    background-color: #ff0000de;
+    border: 1px solid #ff0000e6;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+th.idd {}
+
+th.idd {
+    display: none;
+}
+
+td.as {
+    display: none;
+}
+
+input.cover {
+    color: #1c1d1f;
+    font-size: 18px;
+    height: 35px;
+    font-family: system-ui;
+    margin-top: 4px;
+    border: 0.2px solid #c5c5c5d4;
+    padding-left: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#insert {
+    align-self: flex-start;
+}
+
+
+div#insert {
+}
+
+button.butinsert {
+    background-color: #8bc34aed;
+    border: 1px solid #8bc34aed;
+    color: white;
+    align-self: center;
+    margin-top: 12px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+div#insert {
+    display: flex;
+    flex-direction: column;
+}

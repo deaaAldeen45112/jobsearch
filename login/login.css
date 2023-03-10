@@ -1,0 +1,163 @@
+
+
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 50px 70% 30%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "logo nav nav nav nav nav nav nav nav nav nav nav"
+    "con con con con con con con con con con con con"
+    "fot fot fot fot fot fot fot fot fot fot fot fot";
+}
+ul {
+    list-style: none;
+}
+nav{grid-area: nav;display: flex;background-color: #000000;flex-direction: row;}
+#logo{
+
+grid-area:logo;
+
+display: flex;
+
+background-color: #000000;
+
+color: white;
+
+text-align: center;
+
+height: inherit;
+
+justify-content: center;
+
+flex-direction: column;
+
+padding-left: 12px;
+}
+section{grid-area:con;background-color: white;}
+footer{grid-area: fot;display: flex;text-align: center;background-color: #000000d4;color: white;/* font-family: system-ui; *//* font-weight: bolder; */font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-weight: 400;line-height: 1.4;font-size: 1.4rem;}
+section.list_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  background: #e2e2e20d;
+  margin-top: 42px;
+  /* flex: auto; */
+  background-position: center;
+  background-size: cover;
+  height: 7rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  height: 342px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+
+
+nav div {
+  background-color: rgb(251 251 251);
+  width: 50px;
+  margin: 1px;
+  border-block-width: 0px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: transparent;
+  position: relative;
+  margin-left: -10px;
+  left: calc(100% - 100%/11);
+}
+
+input.cover {color: #1c1d1f;font-size: 18px;height: 48px;font-family: system-ui;margin-top: 4px;border: 0.2px solid #c5c5c5d4;
+padding-left:11px;}
+
+input.cover::placeholder {
+    color: #1c1d1f9e;
+    font-size: 18px;
+    height: auto;
+    font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    padding: 0px;
+}
+input.cover:focus {
+    outline: none !important;
+    border: 1px solid #00bcd499;
+    box-shadow: 0 0 10px #719ecead;
+}
+
+
+
+html {}
+
+input.cover {}
+
+input.cover:focus {
+}
+
+h2.log {
+    text-align: center;
+    font-family: fangsong;
+    display: flex;
+    border: 0.2px solid #c1bdbd6b;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 50px;
+    color: white;
+    background-color: #000000;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.list_card {}
+
+input.but {
+    font-size: 16px;
+    color: white;
+    margin-top: 64px;
+    top: -24px;
+    position: relative;
+    margin-bottom: 0;
+    border: 0 solid white !important;
+    height: 45px;
+    background-color: #000000de;
+    font-family: system-ui;
+}
+
+.gro_lin {
+    display: flex;
+    text-indent: 6px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {}
+
+.gro_lin {}
+
+a.log_lin_a {
+    font-size: 18px;
+    text-decoration: none;
+    /* font-size: 10px; */
+    color: #000000db;
+    margin-right: 4px;
+}
+
+a.log_lin_a {}
