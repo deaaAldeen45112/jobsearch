@@ -1,5 +1,8 @@
 # jobsearch
-jobsearch is a web application helps people in searching job 
+jobsearch is a web application helps people in searching job.
+<br>
+# Developing
+this is the first web application for me,for that you will find a lot of Spaghetti Code ,I did it without clean code.
 <br>
 # OverView
 there are two types of user are admin and job searcher.
