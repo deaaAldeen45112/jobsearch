@@ -15,7 +15,7 @@ job searcher can see ads of job, comment them, like them.
 
 
 
-https://user-images.githubusercontent.com/99683685/224493158-e3975b22-4693-48e5-9443-e7b185067102.mp4
+[comment]: <> https://user-images.githubusercontent.com/99683685/224493158-e3975b22-4693-48e5-9443-e7b185067102.mp4
 
 
  
